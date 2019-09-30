@@ -6,9 +6,10 @@ function setup() {
   print(`The P5 canvas is ${width}px wide and ${height}px tall`)
 
   // display out greeting message in medium grey
-  fill(127) // grey value between 0–255
-  textSize(60) // size in pixels
-  text("Hello P5 👋", 90, height/2) // (message, x, y)
+  fill(0, 0, 255) // grey value between 0–255
+  textSize(100) // size in pixels
+  textFont("Noe Display")
+  text("Hello P5 👋", width/2 - 250, height/2) // (message, x, y)
 
   // pick a light grey fill and bright red stroke to draw shapes with
   fill(200)         // a single value is greyscale
@@ -20,4 +21,3 @@ function setup() {
   circle(200, 200, 40) // (x, y, radius)
   arc(300, 200, 100, 100, -PI, -HALF_PI) // (x, y, w, h, start, stop)
 }
-
