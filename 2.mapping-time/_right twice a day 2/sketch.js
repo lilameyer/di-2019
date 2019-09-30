@@ -20,20 +20,57 @@ function draw() {
   // set the background to 'white' – you can also specify colors use integers, hex-color strings and more.
   // note that setting the background also clears the canvas from our previous round of drawing
   background('white')
+
+ //  if (hourA > 12) {
+ //     background('black')
+ // }
+
+
   noStroke()
 
-  hourColor.setAlpha(abs(1 - hour()))
-  minuteColor.setAlpha(abs(1 - minute()))
-  secondColor.setAlpha(abs(1 - second()))
+  // hourColor.setAlpha(abs(1 - hour()))
+  // minuteColor.setAlpha(abs(1 - minute()))
+  // secondColor.setAlpha(abs(1 - second()))
 
-  fill(hourColor)
+  var hourA = hour() * (255/24)
+
+  if (hourA > 12) {
+     hourA = hourA - 12
+ }
+
+ textSize(24) // make it big
+
+  var minA = minute() * (255/60)
+  var secA = second() * (255/60)
+
+  fill(0, hourA)
   circle(width/2, 225, 150)
+  fill(0)
+  if (hourA > 255/2) {
+     fill (255)
+ }
+  text(hour() - 12, width/2 - 2, 235)
 
-  fill(minuteColor)
+  fill(0, minA)
   circle(width/2 - 100, 375, 150)
+  fill(0)
+  if (minA > 255/2) {
+     fill (255)
+ }
+  text(minute(), width/2 - 115, 385)
 
-  fill(secondColor)
+  fill(0, secA)
   circle(width/2 + 100, 375, 150)
+  fill(0)
+  if (secA > 255/2) {
+     fill (255)
+ }
+  text(second(), width/2 + 90, 385)
+
+  print ('hour: ', hourA)
+  print ('min: ', minA)
+  print ('sec: ', secA)
+
 
 
   // set up typography & drawing-color
@@ -43,10 +80,10 @@ function draw() {
   fill(100, 50, 50)
 
   // draw the time string to the canvas
-  text(now.text.date, 30, 50)
-  text(now.text.time, 30, 100)
-  text('hour: ' + hourColor, 30, 150)
-  text('min: ' + minuteColor, 30, 200)
-  text('sec: ' + secondColor, 30, 250)
+  // text(now.text.date, 30, 50)
+  // text(now.text.time, 30, 100)
+  // text('hour: ' + hourColor, 30, 150)
+  // text('min: ' + minuteColor, 30, 200)
+  // text('sec: ' + secondColor, 30, 250)
 
 }
