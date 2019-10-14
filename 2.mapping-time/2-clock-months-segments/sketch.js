@@ -2,6 +2,16 @@
 function setup() {
   createCanvas(1000, 600)
   background('white')
+
+
+      for (var h=2; h<34; h++) {
+         stroke(220, 220, 220)
+         noFill()
+         strokeWeight(0.5)
+         circle(width/2, height/2, h*15, h*15)
+      }
+
+
 }
 
 
@@ -15,10 +25,10 @@ function draw() {
 
   var top = -PI/2
   var inc = PI/6
-  var alpha = 5
+  var alpha = 4
 
-  for (i=2; i<34; i++) {
-     for (x=1; x<13; x++) {
+
+     for (var x=1; x<13; x++) {
         if (now.month == 1) {
            fill(114, 200, 241, now.progress.month * alpha)
         } else if (now.month == 2) {
@@ -45,17 +55,22 @@ function draw() {
            fill (129, 127, 189, now.progress.month * alpha)
         }
 
+        var i = now.day
         var mo = now.month
-        stroke(255)
-        arc(width/2, height/2, i*15, i*15, top + (inc*(mo-1)), top + (inc*mo)); // arc (x, y, width, height, )
+        arc(width/2, height/2, i*15, i*15, top + (inc*(mo-1)), top + (inc*mo)); // arc (x, y, width, height, start, stop)
+
      }
- }
-   //
-   // for (h=2; h<34; h++) {
-   //    stroke(255, 255, 0)
-   //    noFill()
-   //    strokeWeight(1)
-   //    circle(width/2, height/2, i*15, i*15)
-   // }
+
+   if (now.day == 31 && now.month == 12) {
+     background('white')
+
+       for (var h=2; h<34; h++) {
+          stroke(150, 150, 150)
+          noFill()
+          strokeWeight(0.5)
+          circle(width/2, height/2, h*15, h*15)
+       }
+
+   }
 
 }
