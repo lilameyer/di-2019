@@ -174,7 +174,7 @@ function draw() {
    if (now.hours >= 23 && now.min >= 59) {
      background('white')
 
-       for (var h=2; h<34; h++) {
+       for (var h=2; h<62; h++) {
           stroke(150, 150, 150)
           noFill()
           strokeWeight(0.75)
