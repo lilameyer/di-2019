@@ -46,10 +46,9 @@ This sketch uses the time variables second, minute, hour, day, month, and moon. 
 This is an alternative approach to making my sketches "hybrid" - rather than directly integrating one into another, there's a split screen display. The left "wheel" is clock time; every segment is an hour (1-24), every arc is a minute, and the value of the arc is the second. The right "wheel" is the calendar time; every segment is a month (1-12), every arc is a day (1-31) and the conclusion of the wheel is a year. 
 
 
+Hybrid Sketch 3 [The one I didn't code]
 
-
-
-
+The same logic follows through to this one - each square is a day, composed of three internal bars (second, minute, and hour) that would animate like progress bars. The color schemes corresponds to the color wheel to reflect the seasons (and subsequently the temperature, sorta). Each row is a month, and the entire image together forms a representation of the year. 
 
 
 
