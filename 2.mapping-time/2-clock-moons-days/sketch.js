@@ -11,8 +11,9 @@ function draw() {
   var now = clock()
   var d = now.day
   var mo = now.month
-  var size = now.progress.moon * 15
+  var size = now.moon * 15
 
+  // fill(255, 0, 0, 5)
   fill('yellow')
   noStroke()
 

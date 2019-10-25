@@ -33,3 +33,35 @@ There are 7 columns, one for each day of the week. The up-down pattern is just t
 
 Page 4
 7 shapes, one for each day of the week, each composed of 24 lines for the hour of the day. 
+
+
+
+
+// Hybrids! 
+
+3-hybrid-1
+This sketch uses the time variables second, minute, hour, day, month, and moon. The intitial expanding 3, overlapping circles are the simple clock (each value has their own color, and size corresponds to its progress through the day). Then, the circle finalizes as the size of the moon.progress variable to reflect the progress through the moon cycle. Each circle is a day, and each row is a month. 
+
+3-hybrid-2
+This is an alternative approach to making my sketches "hybrid" - rather than directly integrating one into another, there's a split screen display. The left "wheel" is clock time; every segment is an hour (1-24), every arc is a minute, and the value of the arc is the second. The right "wheel" is the calendar time; every segment is a month (1-12), every arc is a day (1-31) and the conclusion of the wheel is a year. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

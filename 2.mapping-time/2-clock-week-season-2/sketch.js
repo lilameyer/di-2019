@@ -32,7 +32,7 @@ function draw() {
         if (now.season == 1) {
           push()
           translate(200, 75)
-          // scale(1/row)
+          scale(1/row)
           // rotate(week*100)
           poly1(10, 10, 40, 20, 40, 30)
           pop()
@@ -40,7 +40,7 @@ function draw() {
           push()
           translate(500, 75)
           // rotate(week*100)
-          // scale(1/row)
+          scale(1/row)
           poly2(13, 22, 20, 32, 38, 30)
           pop()
         } else if (now.season == 3) {
@@ -48,14 +48,14 @@ function draw() {
           print('row: ' + row)
           // rotate(week*100)
           translate (200, 200)
-          // scale(1/row)
+          scale(1/row)
           poly3(12, 18, 37, 24, 49)
           pop()
         } else if (now.season == 4) {
           push()
           // rotate(week*100)
           translate(500, 200)
-          // scale(1/row)
+          scale(1/row)
           poly4(54, 19, 50, 13, 28, 31)
           pop()
         }
