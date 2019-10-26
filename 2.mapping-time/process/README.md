@@ -29,12 +29,7 @@ Page 2
 Each of the 12 segments corresponds to a month. The color, again, corresponds to the season. Each segment is composed of 31 days; each segment would fill out, one day at a time, eventually making a full circle (though not even, as not every month as 31 days)
 
 Page 3
-There are 7 columns, one for each day of the week. The up-down pattern is just to help distinguish the day of the week. There are 52 lines down, one for each week of the year.
-
-Page 4
-7 shapes, one for each day of the week, each composed of 24 lines for the hour of the day. 
-
-
+The idea here is to focus on texture - there are 4 patterns of square, one for each season. (The higher the number returned, 1-4, the more dense the pattern). The rotation of the square coresponds to the progress through the season, and the upper left corner having one solid square is simply meant to help identify the angle as it rotates, since a square has no disinguishes features. The colors correspond to the month, and the stroke weight is based on the progress through every week of the year. 
 
 
 // Hybrids! 
