@@ -1,7 +1,7 @@
 var data
 
 function preload(){
-  data = loadTable('data/totals.csv', 'csv', 'header')
+  data = loadTable('data/military-spending.csv', 'csv', 'header')
 }
 
 function setup(){
