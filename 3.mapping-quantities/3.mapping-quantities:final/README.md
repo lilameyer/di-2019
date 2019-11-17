@@ -1,0 +1,5 @@
+## Exercise 3: Mapping Quantities, Categories, and Summarized Data
+
+I chose to compare the given datasets of nuclear testing to each country's military expenditure as percent of their total GDP. I was more interested in comparing the trends of each of these than simply looking to see which country spent the most money or did the most tests. That's why it became these horizontal, banded strips - one for testing, one for spending, for each of the 8 countries. The "graphs" are sequential but not true to the timeframe because they're not equally spaced. In other words, each piece of data comes directly after each other no matter if there is 1 year or 10 years in between them. 
+
+You can get additional info through further examination - the three colors for the upper bars give the location of the tests conducted that year, and the value of the bottom bars breaks the expenditure into brackets of 1-5%, 5-8%, 8% and up. There are a few numbers explictly given for context as well, as the width of the bars are not the same across each of the 8 countries. 

@@ -65,9 +65,9 @@ function setup(){
     x += colWidth
   }
 
-for (i=1; i<=8; i++) {
-  rect (x, info.details[country].lab, x*i, 400)
-}
+// for (i=1; i<=8; i++) {
+//   rect (x, info.details[country].lab, x*i, 400)
+// }
 
 
    for (var c=0; c<data.countries.length; c++){
