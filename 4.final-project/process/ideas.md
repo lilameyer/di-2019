@@ -12,10 +12,10 @@
 
 6. A timeline of the demographics in the US government (specifically the Senate or House of Reps... or both). How have the demographics changed over the last few years, and how do they differ by party lines? 
 
-7. The cost of living across the United States. How much more expensive is it, really, to live in NYC or LA than Middle America? 
+7. How do people use their cameras (on phones) now that they're so easily accesesible? What's the breakdown of pictures you wanted to take / ones taken to remember something you didn't want to write down / screenshots / memes / random things you don't remember how they got there? 
 
 8. How do the financials of Broadway shows break down? How expensive are they to produce, how much are the actors paid, how much are average ticket costs, how many tix need to be sold to break even, how many people go to Broadway every day/week/month/year? This entire set could be compared to the financials of movies and/or TV. 
 
 9. How do Netflix viewing habits change by any manner of factors - location, age, race, time of day, gender, etc. What shows are most universally popular, and which are very specific to one demographic or another? 
 
-10. Trends of the #METOO era born in October 2017, and how it has changed American culture and the American workplace (inspired by this article https://www.nbcnews.com/news/us-news/new-data-metoo-s-first-year-shows-undeniable-impact-n918821)
+10. What can I learn about the people in my life based on arbitrary questions? Think: Dear Data project. I'm mostly interested in how people feel given the zeitgeist - are they happy, are they not, what makes them happy, what's missing from their life, and so on. 
