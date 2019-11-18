@@ -38,7 +38,7 @@ function preload(){
 
 function setup(){
 
-  createCanvas(1440, 6250, SVG)
+  createCanvas(1440, 6250)
   background('#FFF2E9')
 
 
@@ -980,7 +980,7 @@ pop()
 
 
 
-save('my-sketch.svg')
+// save('my-sketch.svg')
 
 
 

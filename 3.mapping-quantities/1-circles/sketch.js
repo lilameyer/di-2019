@@ -87,15 +87,14 @@ function setup(){
       var value = atmosphere.getNum(r, c)
       // text(value, x, y)
 
-      textStyle(NORMAL)
-      textAlign(LEFT)
-      textSize(9)
-      fill(0)
-      text('TOTAL TESTING BY YEAR', 70, y+25)
+      // textStyle(NORMAL)
+      // textAlign(LEFT)
+      // textSize(9)
+      // fill(0)
+      // text('TOTAL TESTING BY YEAR', 70, y+25)
 
 
       if (atmosphere.columns[c] == "USA") {
-      print('hey bitches')
           fill ('#000338')
         } else if (atmosphere.columns[c] == "RUS") {
           fill ('#650000')
@@ -191,9 +190,9 @@ function setup(){
 
       fill(0)
 
-        textStyle(NORMAL)
-        textSize(9)
-        text('MILITARY SPENDING AS % OF TOTAL GDP', 70, y+25)
+        // Style(NORMAL)
+        // textSize(9)
+        // text('MILITARY SPENDING AS % OF TOTAL GDP', 70, y+25)text
 
 
         if (percent.columns[c] == "USA") {
