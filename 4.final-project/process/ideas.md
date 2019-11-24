@@ -6,7 +6,7 @@
 
 3. The information learned from Apple's ScreenTime feature, now that it's on all laptops as well as phones. How do I, the people around me, and the more general population of Apple consumers divide our time? 
 
-4. Voter registration data. I wan't to dispense with the idea of "my vote doesn't matter" when we live in a time of elections being won with a mere margin of hundreds. Perhaps take a few specific states (battleground?) and analyze how many people are registered, to what party, how many are actually active, and how many voters have been purged from voter years in recent years. Were there enough people to swing recent elections? 
+4. Voter registration data. I want to dispense with the idea of "my vote doesn't matter" when we live in a time of elections being won with a mere margin of hundreds. Perhaps take a few specific states (battleground?) and analyze how many people are registered, to what party, how many are actually active, and how many voters have been purged from voter years in recent years. Were there enough people to swing recent elections? 
 
 5. This is very vague, but NYC is endlessly fascinating and I want to examine one of its social aspects. How the demographics have changed over time, why the subways haven't gotten fixed, how budgets are distributed as compared to other cities, etc. 
 
