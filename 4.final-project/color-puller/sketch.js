@@ -34,5 +34,5 @@ function setup(){
     y += 40
   }
 
-  save('image-colors.svg')
+  // save('image-colors.svg')
 }
