@@ -6,7 +6,7 @@ const getPixels = require('get-pixels')
 const getRgbaPalette = require('get-rgba-palette')
 const chroma = require('chroma-js')
 
-var NUM_COLORS = 16 // the number of colors per image you want to isolate
+var NUM_COLORS = 2 // the number of colors per image you want to isolate
 var OUTPUT_JSON = "image-colors.json" // the file to save the color lists to
 var IMAGE_FOLDER = "images" // the name of the folder to scan images in
 var FILE_EXTENSIONS = ['jpg','png','gif'] // only scan files if they end with one of these

@@ -5,7 +5,9 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(600, 600, SVG)
+  createCanvas(1200, 600, SVG)
+    background(255)
+
   textSize(16)
 
   var x = 40
@@ -23,16 +25,17 @@ function setup(){
     push()
     translate(160, y-12)
     for (var c=0; c<colors.length; c++){
+      noStroke()
       // draw one 16x16 swatch per color then slide over by 20px
       fill(colors[c])
       rect(0,0, 16,16)
-      translate(20,0)
+      translate(16,0)
     }
     pop()
 
     // move down a bit for the next row
-    y += 40
+    y += 16
   }
 
-  // save('image-colors.svg')
+  save('image-colors.svg')
 }
